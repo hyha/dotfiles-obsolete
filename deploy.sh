@@ -8,6 +8,6 @@ echo "Updating Configuration..."
 (cd ~/dotfiles && git pull && git submodule update --init --recursive)
 
 printf "source $HOME/dotfiles/zsh/zshrc.sh" > ~/.zshrc
-printf "source-file $HOME/dotfiles/tmux/tmux-themepack/powerline/double/orange.tmuxtheme" >  ~/.tmux.conf
+printf "source-file $HOME/dotfiles/tmux/tmux-themepack/powerline/double/yellow.tmuxtheme" >  ~/.tmux.conf
 exec zsh
 
